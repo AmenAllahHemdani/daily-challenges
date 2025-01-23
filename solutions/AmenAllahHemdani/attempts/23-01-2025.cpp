@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int s = 0; 
 
     void path(int m,int n){
