@@ -14,6 +14,8 @@
 - **24-01-2025**: [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/) - Leetcode
 - **27-01-2025**: [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/) - Leetcode
 - **12-02-2025**: [Clone Graph](https://leetcode.com/problems/clone-graph/description/) - Leetcode
+- **17-02-2025**: [Party](https://codeforces.com/contest/115/problem/A) - Codeforces
+  
 
   
   
