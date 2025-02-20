@@ -1,0 +1,22 @@
+#include <unordered_map>
+
+class Solution {
+public:
+    int res = 0;
+    std::unordered_map<int, int> memo; 
+
+    int gen(int n, int cur_sum) {
+        if (cur_sum == n) return 1;
+        if (cur_sum > n) return 0;
+        
+        if (memo.find(cur_sum) != memo.end()) 
+            return memo[cur_sum];
+        
+        memo[cur_sum] = gen(n, cur_sum + 1) + gen(n, cur_sum + 2);
+        return memo[cur_sum];
+    }
+
+    int climbStairs(int n) {
+        return gen(n, 0);
+    }
+};
